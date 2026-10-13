@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/649a8567-339a-439a-abc0-3db7fac9e82d
+
 # ToS Risk Analyzer
 
 ToS Risk Analyzer, açık olan web sayfasındaki kullanım koşulları ve gizlilik
