@@ -1,0 +1,33 @@
+{
+  "name": "tos-analyzer-ext",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:demo": "vite --host 127.0.0.1 --port 4178 --strictPort",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "demo:video": "start-server-and-test dev:demo http://127.0.0.1:4178 \"cypress run --spec cypress/e2e/demo.cy.ts\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "page-agent": "^1.12.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.5",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "cypress": "^16.1.1",
+    "oxlint": "^1.81.0",
+    "start-server-and-test": "^3.0.13",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
